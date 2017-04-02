@@ -19,7 +19,7 @@ run: show dbs
 run: use users
 run: show collections
 
-##Commands
+*Few Commands
 
 1. To show all databases
 show dbs
