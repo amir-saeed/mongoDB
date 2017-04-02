@@ -1,0 +1,37 @@
+mongo Shell
+
+to create new database
+Run command: use example
+Run command: db.createCollection("cars")
+Run command: show collections
+Run command: db.cars.insert({
+	"name":"honda",
+	make: 'accord',
+	year:'2010'
+})
+
+Run command: : db.card.find().pretty();
+
+Run command: db.car.update({
+	name:'honda'	
+   },
+   {$set: {
+        name :'ford'
+   }}		
+)
+
+Run command: db.car.find().pretty()
+Run command: db.car.update({
+	name:'ford'	
+   },
+   {$set: {
+        transmission :'automatic'
+   }},
+   {
+	$upsert:true
+   }   		
+)
+Run command: db.car.find().pretty()
+Run command: db.car.remove({name:"ford"})
+
+
