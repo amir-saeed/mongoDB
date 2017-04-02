@@ -14,3 +14,9 @@ db.createCollection('collectionName')
 
 4. Insert values into collection
 db.collectionName.insert({"name":"Amir","Password":"123", "Admin":"true" })
+
+5. To list all the entries into the collection
+db.collectionName.find();
+
+6. To list all the entries to make them readable
+db.collectionName.find().pretty();
