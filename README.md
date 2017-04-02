@@ -1,9 +1,9 @@
-# mongoDB
-All information, tutorials, code about mongoDB
+# MongoDB
+> All information, tutorials, code about mongoDB
 
 To use mongoDB, use robomongo ( https://robomongo.org/download) as management studio to see records visually.
 
-*To start mongo, open two terminal, 
+## To start mongo, open two terminal, 
 
 write in one terminal, 
 
@@ -19,7 +19,7 @@ run: show dbs
 run: use users
 run: show collections
 
-*Few Commands
+## Few Commands
 
 1. To show all databases
 run: show dbs
