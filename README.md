@@ -3,6 +3,24 @@ All information, tutorials, code about mongoDB
 
 To use mongoDB, use robomongo ( https://robomongo.org/download) as management studio to see records visually.
 
+##To start mongo, open two terminal, 
+
+write in one terminal, 
+
+mongod, it will start the server
+
+in other terminal, start with 
+run command: mongo
+
+it will start mongo database
+
+now list dow all the databases
+run: show dbs
+run: use users
+run: show collections
+
+##Commands
+
 1. To show all databases
 show dbs
 
